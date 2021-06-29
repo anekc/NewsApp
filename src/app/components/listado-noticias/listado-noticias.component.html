@@ -1,0 +1,15 @@
+<div *ngFor="let noticia of listNoticias" class="card-group col-md">
+    <div class="card">
+        <img class="card-img" [src]="noticia.urlToImage" alt="Card image cap">
+        <div class="card-body">
+            <span>{{noticia.source.name}}</span>
+            <h5 class="card-title">{{noticia.title}}</h5>
+            <p class="card-text">{{noticia.description}}</p>
+            <a [href]="noticia.url" class="btn btn-primary btn-block">Ver mas</a>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">{{noticia.publishedAt}}</small>
+        </div>
+    </div>
+
+</div>

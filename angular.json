@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "newsApp"
+    }
+  },
+  "defaultProject": "newsApp",
+  "cli": {
+    "analytics": false
+  }
 }

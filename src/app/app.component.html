@@ -1,1 +1,5 @@
-<h1>Hola mundo</h1>
+<app-nav-bar [titulo]="'Buscador de noticias'"></app-nav-bar>
+<div class="container">
+    <app-formulario (parametrosSeleccionados)="buscarNoticias($event)"></app-formulario>
+    <app-listado-noticias [listNoticias]="listNoticias"></app-listado-noticias>
+</div>
