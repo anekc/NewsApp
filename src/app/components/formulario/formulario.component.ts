@@ -14,11 +14,21 @@ categorias: any[]=[
   {
   value:'general', nombre: 'General'
 },
-{value: 'bussiness', nombre: 'Negocios'}];
+{value: 'bussiness', nombre: 'Negocios'},
+{value: 'entertaiment', nombre: 'Entretenimiento'},
+{value: 'health', nombre: 'Salud'},
+{value: 'science', nombre: 'Ciencia'},
+{value: 'sports', nombre: 'Deportes'},
+{value: 'technology', nombre: 'Tecnología'}];
+
 
 paises: any[]=[
   {value:'mx', nombre: 'Mexico'},
-  {value:'br', nombre: 'Brazil'}
+  {value:'br', nombre: 'Brasil'},
+  {value:'fr', nombre: 'Francia'},
+  {value:'gb', nombre: 'Reino Unido'},
+  {value:'us', nombre: 'Estados Unidos'},
+  {value:'ar', nombre: 'Argentina'},
 ]
   constructor() { }
 
